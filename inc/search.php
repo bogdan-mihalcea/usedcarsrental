@@ -21,7 +21,7 @@
 										SELECT listing.owner_id, listing.car_model, listing.car_type, listing.city, listing.start_date, listing.description, listing.added_date, user.real_name, user.email, user.phone_number
 										FROM user 
 										INNER JOIN listing ON user.id=listing.owner_id
-										WHERE listing.car_type = '$car_type' AND listing.city = '$city' AND listing.start_date >= '$compare_date' 
+										WHERE listing.car_type = '$car_type' AND listing.city = '$city' AND '$compare_date' >= listing.start_date
 										ORDER BY listing.id DESC;
 										");
 				$select_stmt->execute();
