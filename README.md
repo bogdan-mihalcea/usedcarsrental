@@ -68,6 +68,7 @@ password:
 
 ## Screenshots
 ![Index](./screenshots/index.png)
+![Search](./screenshots/search.png)
 ![Entity-Relationship Model](./ERM.png)
 
 
