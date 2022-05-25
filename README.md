@@ -31,15 +31,7 @@ Test credentials:
 ADMIN ACCOUNT:
 
 
-username: 
-
-`bogdan`
-
-OR
-
-username: 
-
-`bogdan.mihalcea@icloud.com`
+username: `bogdan` or `bogdan.mihalcea@icloud.com`
 
 password: 
 
@@ -48,15 +40,7 @@ password:
 USER ACCOUNT:
 
 
-username: 
-
-`denyxp31`
-
-OR
-
-username: 
-
-`denyxp31@gmail.com`
+username: `denyxp31` or `denyxp31@gmail.com`
 
 password: 
 
